@@ -18,7 +18,7 @@ Specifically, after the abovementioned step 2, we can run the ```create_cavity.i
 
 Here, we provide two examples: (1) a fully packed porous medium with the porosity $\phi_{\text {target}}=0.33$ and (2) a porous medium having large cavity inside. The latter is obtained by removing the central grains from a fully packed porous medium with the porosity $\phi_{\text {target}}=0.4$. The corresponding files and codes are organized in folders ```SphereTest_0.33``` and ```SphereTest_0.4_cavity```, respectively. 
 
-A cross-sectional view of the two different porous media is shown below and also in FIG. 1 in the [*PRFluids*]() paper.
+A cross-sectional view of the two different porous media is shown below and also in FIG. 1 in the [*PRFluids*](https://doi.org/10.1103/PhysRevFluids.7.074302) paper.
 
 <div align=center><img width="750" src="https://github.com/xuhuizhou-vt/Flow-field-prediction-in-porous-media/blob/main/data-generation/with-without-cavity.png"/></div>
 

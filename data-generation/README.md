@@ -26,6 +26,28 @@ A cross-sectional view of the two different porous media is shown below and also
 
 The single-phase porous media flows are simulated using the Lattice Boltzmann Method (LBM), which is performed with an [open-source solver---LBPM](https://github.com/OPM/LBPM/wiki/LBPM-Tutorial,-Step-3.-Single-Phase-Flow).
 
+```
+Domain {
+   Filename =  "pack_N512_33"
+   BC = 0
+   ComponentLabels = 0
+   N = 512, 512, 512   // 512 for fine; 128 for coarse
+   ReadType = "8bit"
+   ReadValues = 0, 1
+   WriteValues = 0, 1
+   n = 256, 256, 512
+   nproc = 2, 2, 1
+   offset = 0, 0, 0
+   voxel_length = 1.0
+}
+MRT {
+   F = 0, 0, 1e-04   // 1e-04 for fine; 6.4e-03 for coarse
+   tau = 1
+   timestepMax = 100000
+   tolerance = 0.00001
+}
+```
+
 
 
 

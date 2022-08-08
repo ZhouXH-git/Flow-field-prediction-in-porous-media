@@ -36,7 +36,7 @@ Domain {
    ReadValues = 0, 1
    WriteValues = 0, 1
    n = 256, 256, 512
-   nproc = 2, 2, 1
+   nproc = 2, 2, 1  // 4 GPUs
    offset = 0, 0, 0
    voxel_length = 1.0
 }

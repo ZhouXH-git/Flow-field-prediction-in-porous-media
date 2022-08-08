@@ -24,7 +24,7 @@ A cross-sectional view of the two different porous media is shown below and also
 
 ## Flow simulation
 
-The single-phase porous media flows are simulated using the Lattice Boltzmann Method (LBM), which is performed with an [open-source solver---LBPM](https://github.com/OPM/LBPM/wiki/LBPM-Tutorial,-Step-3.-Single-Phase-Flow).
+The single-phase porous media flows are simulated using the Lattice Boltzmann Method (LBM), which is performed with an [open-source solver---LBPM](https://github.com/OPM/LBPM/wiki/LBPM-Tutorial,-Step-3.-Single-Phase-Flow). Note that to achieve the same $Re$ number on different meshes, the driving force $F$ are set to be different with $F=1e-04$ on fine mesh and $F=6.4e-03$ on coarse mesh.
 
 ```
 Domain {

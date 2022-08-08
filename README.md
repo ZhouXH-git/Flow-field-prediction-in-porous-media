@@ -4,4 +4,4 @@ Predicting the pore flow velocity directly from the sub-sampled pore structure i
 The methodology was developed by Xu-Hui Zhou and Dr. Heng Xiao at Virginia Tech: [Data-Enabled Computational Mechanics Laboratory at Virgnia Tech](https://www.aoe.vt.edu/people/faculty/xiaoheng/personal-page.html).
 
 ### Neural network–based pore flow field prediction in porous media using super resolution
-<div align=center><img width="966" src="https://github.com/xuhuizhou-vt/Flow-field-prediction-in-porous-media/blob/master/figs/porous-media-nn-final.png"/></div>
+<div align=center><img width="966" src="https://github.com/xuhuizhou-vt/Flow-field-prediction-in-porous-media/blob/main/porous-media-nn-final.png"/></div>

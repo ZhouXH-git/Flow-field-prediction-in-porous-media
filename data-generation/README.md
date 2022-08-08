@@ -24,7 +24,7 @@ A cross-sectional view of the two different porous media is shown below and also
 
 ## Flow simulation
 
-The porous media flows are simulated using the Lattice Boltzmann Method (LBM), which is performed on [an open-source solver---LBPM](https://github.com/OPM/LBPM/wiki/LBPM-Tutorial,-Step-0.-Building-LBPM).
+The porous media flows are simulated using the Lattice Boltzmann Method (LBM), which is performed on an [open-source solver---LBPM](https://github.com/OPM/LBPM/wiki/LBPM-Tutorial,-Step-0.-Building-LBPM).
 
 
 

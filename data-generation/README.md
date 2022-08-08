@@ -18,4 +18,7 @@ Specifically, after the abovementioned step 2, we can run the ```create_cavity.i
 
 Here, we provide two examples: (1) a fully packed porous medium with the porosity $\phi_{\text {target}}=0.33$ and (2) a porous medium having large cavity inside. The latter is obtained by removing the central grains from a fully packed porous medium with the porosity $\phi_{\text {target}}=0.4$. The corresponding files and codes are organized in folders ```SphereTest_0.33``` and ```SphereTest_0.4_cavity```, respectively.
 
+<div align=center><img width="966" src="https://github.com/xuhuizhou-vt/VCNN-nonlocal-constitutive-model/blob/master/figs/schematic-NN.png"/></div>
+
+
 

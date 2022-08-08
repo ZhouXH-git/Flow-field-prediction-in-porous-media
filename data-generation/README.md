@@ -16,7 +16,7 @@ More details and examples can be found in ```SpherePackTools/doc/manual.pdf``` i
 
 Specifically, after the abovementioned step 2, we can run the ```create_cavity.ipynb``` to create an updated ```pack.out```, where the grains in the assumed large pore space are removed. The following steps 3 and 4 remain the same. Note that we need to keep the *updated* ```pack.out``` the same with the *original* ```pack.out``` in terms of the format (e.g., file header ...).
 
-Here, we provide two examples: (1) a fully packed porous medium with the porosity $\phi_{\text {target}}=0.33$ and (2) a porous medium having large cavity inside. The latter is obtained by removing the central grains from a fully packed porous medium with the porosity $\phi_{\text {target}}=0.4$. The corresponding files and codes are organized in folders ```SphereTest_0.33``` and ```SphereTest_0.4_cavity```, respectively. 
+Here, we provide two examples: (1) a fully packed porous medium with the porosity $\phi_{\text {target}}=0.33$ and (2) a porous medium having large cavity inside. The latter is obtained by removing the central grains from a fully packed porous medium with the porosity $\phi_{\text {target}}=0.36$. The corresponding files and codes are organized in folders ```SphereTest_0.33``` and ```SphereTest_0.6_cavity```, respectively. 
 
 A cross-sectional view of the two different porous media is shown below and also in FIG. 1 in our [*PRFluids*](https://doi.org/10.1103/PhysRevFluids.7.074302) paper.
 

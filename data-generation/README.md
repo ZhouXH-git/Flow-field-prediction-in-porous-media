@@ -35,7 +35,7 @@ Domain {
    ReadType = "8bit"
    ReadValues = 0, 1
    WriteValues = 0, 1
-   n = 256, 256, 512
+   n = 256, 256, 512  // n = N/nproc
    nproc = 2, 2, 1  // 4 GPUs
    offset = 0, 0, 0
    voxel_length = 1.0

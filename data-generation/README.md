@@ -29,7 +29,7 @@ The single-phase porous media flows are simulated using the Lattice Boltzmann Me
 ```
 Domain {
    Filename =  "pack_N512_33"
-   BC = 0
+   BC = 0   // periodic system
    ComponentLabels = 0
    N = 512, 512, 512   // 512 for fine; 128 for coarse
    ReadType = "8bit"
